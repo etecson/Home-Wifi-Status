@@ -1,0 +1,13 @@
+8:00 - 2:00 PM 8/18/2016
+made most of the site
+found centering hard because of bootsratp col settings
+made js for changing bg
+***next: add comment
+
+9:03 PM 8/18/2016
+added navbar
+added about.html
+added contact.html
+***next: add js functions for changing status when person is selected,
+clearing people when status is Not Downloading
+Change bg color of other pages when status is Downloading
