@@ -1,0 +1,23 @@
+
+/*IDs*/
+#div-container{
+	margin-top: 20%;
+}
+
+/*CLASSES*/
+.bg-blue{
+	background-color: #00BFFF;
+}
+.bg-red{
+	background-color: #e74c3c;
+}
+.border{
+	border: 1px solid red;
+}
+.hidden{
+	display: none;
+}
+.text-white{
+	color: #ecf0f1;
+}
+
