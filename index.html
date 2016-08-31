@@ -10,6 +10,7 @@
 
     <!-- Bootstrap -->    
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="css/bootstrap-select.min.css">
@@ -37,11 +38,15 @@
             <li><a href="about.html">About</a></li>
             <li><a href="contact.html">Contact</a></li>
             </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Comment</a></li>
+          </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav>
 
-    <div class="container" id="div-container">
+    <div class="container animated fadeIn" id="div-container">
       <div class="row">
         <div class="col-lg-2 col-lg-offset-3 text-center">
           <select class="selectpicker" multiple title="Who's downloading?" data-width="100%">
@@ -63,18 +68,14 @@
           <input id="toggle-demo" type="checkbox" data-toggle="toggle" data-onstyle="default" data-on="Downloading" data-off="Not Downloading" data-width="100%">       
         </div>
       </div> <!-- end row -->
-
-      <div>        
-        <textarea class="form-control hidden" rows="3"></textarea>
-      </div>
     </div> <!-- end container -->
     
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
-    <script src="js/main.js"></script>
     <script src="js/bootstrap-select.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>

@@ -20,4 +20,7 @@
 .text-white{
 	color: #ecf0f1;
 }
+.text-strike{
+	text-decoration: line-through;
+}
 
